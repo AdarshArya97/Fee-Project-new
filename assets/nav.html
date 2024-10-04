@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Future Sticky Navigation with Glass Effect</title>
+    <title>Navigation</title>
     <style>
       body {
         line-height: 1.6;
@@ -253,7 +253,7 @@
         color: #fff;
       }
 
-      /* Skill Bars */
+
       .skills {
         margin-top: 20px;
         max-width: 300px;
@@ -308,7 +308,7 @@
     </header>
 
     <div id="page" class="">
-      <!-- Vision Section with Skills -->
+
       <section
         id="vision"
         style="background-image: url(./images/adarsh_nav.jpg); width: 100%"
@@ -339,7 +339,7 @@
         </div>
       </section>
 
-      <!-- Knowledge Section with Skills -->
+
       <section
         id="knowledge"
         style="
@@ -369,7 +369,7 @@
         </div>
       </section>
 
-      <!-- Space Section with Skills -->
+
       <section
         id="space"
         style="
@@ -424,7 +424,7 @@
           }
         });
 
-        // Event listener to remove the sticky class when the button is clicked
+
         openMenuButton.addEventListener("click", function () {
           header.classList.remove("sticky");
           page.classList.add("menuopen");
@@ -434,14 +434,14 @@
 
         links.forEach(function (link) {
           link.addEventListener("click", function (event) {
-            // Prevent the default action
+
             event.preventDefault();
 
-            // Get the target element
+
             var targetId = this.getAttribute("href");
             var targetElement = document.querySelector(targetId);
 
-            // Smooth scroll to target
+
             if (targetElement) {
               targetElement.scrollIntoView({
                 behavior: "smooth",

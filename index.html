@@ -7,78 +7,78 @@
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <style>
         body {
-            font-family: 'Roboto', sans-serif; /* Modern font */
-            background: linear-gradient(to right, #1a1a1a, #2a2a2a); /* Gradient background */
+            font-family: 'Roboto', sans-serif; 
+            background: linear-gradient(to right, #1a1a1a, #2a2a2a); 
             color: white;
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            transition: background 0.3s; /* Smooth transition */
+            transition: background 0.3s; 
         }
         header {
-            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            background-color: rgba(255, 255, 255, 0.1); 
             color: white;
             padding: 20px 0;
             text-align: center;
             position: relative;
-            backdrop-filter: blur(10px); /* Glass effect */
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            backdrop-filter: blur(10px); 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
         }
         .logo {
             position: absolute;
             left: 20px;
             top: 50%;
             transform: translateY(-50%);
-            height: 80px; /* Adjusted size */
+            height: 80px; 
         }
         h1 {
-            text-shadow: 2px 2px 10px black; /* More prominent shadow */
+            text-shadow: 2px 2px 10px black; 
             margin-bottom: 10px;
-            font-size: 3em; /* Larger font */
+            font-size: 3em; 
         }
         #p1 {
             margin: 0;
             font-style: italic;
-            font-size: 1.2em; /* Increased font size */
+            font-size: 1.2em; 
         }
         nav {
             margin-top: 10px;
         }
         nav a {
-            color: red; /* Link color */
-            text-decoration: none; /* No underline */
-            margin: 0 15px; /* Spacing between links */
-            font-weight: bold; /* Bold text */
-            transition: color 0.3s; /* Transition for hover */
+            color: red; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: bold; 
+            transition: color 0.3s; 
         }
         nav a:hover {
-            color: white; /* Change color on hover */
+            color: white; 
         }
         main {
             padding: 20px;
-            animation: fadeIn 1s ease; /* Animation on load */
+            animation: fadeIn 1s ease; 
         }
         #d1 {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 20px 0; /* Margin added */
+            margin: 20px 0; 
         }
         video {
             width: 100%;
             height: auto;
-            max-width: 800px; /* Adjusted max-width */
+            max-width: 800px; 
             margin-bottom: 20px;
-            border-radius: 8px; /* Rounded corners */
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            border-radius: 8px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
         }
         #p2 {
-            font-size: 2.5em; /* Increased font size */
+            font-size: 2.5em; 
             color: white;
             text-align: center;
         }
         #p3, #p4, #p5 {
-            font-size: 1.5em; /* Increased font size */
+            font-size: 1.5em; 
             color: white;
             text-align: center;
             margin-top: 10px;
@@ -93,53 +93,53 @@
             max-width: 100%;
             height: auto;
             margin-top: 20px;
-            border-radius: 8px; /* Rounded corners */
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            border-radius: 8px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
         }
         #p6 {
-            font-size: 2em; /* Increased font size */
+            font-size: 2em; 
             color: white;
             text-align: center;
             margin-bottom: 20px;
         }
         .b1 {
             color: rgb(1, 19, 0);
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent */
-            height: 40px; /* Increased height */
+            background-color: rgba(255, 255, 255, 0.8); 
+            height: 40px; 
             border: none;
             margin-left: 38%;
             padding: 10px 20px;
             cursor: pointer;
             text-decoration: none;
             display: inline-block;
-            margin-top: 20px; /* Margin adjusted */
-            border-radius: 5px; /* Rounded corners */
-            transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+            margin-top: 20px; 
+            border-radius: 5px; 
+            transition: background-color 0.3s, transform 0.3s; 
         }
         .b1:hover {
-            background-color: #ff4d4d; /* Hover effect */
-            transform: scale(1.05); /* Scale effect on hover */
+            background-color: #ff4d4d; 
+            transform: scale(1.05); 
         }
         footer {
-            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+            background-color: rgba(255, 255, 255, 0.1); 
             color: white;
             padding: 20px 0;
             text-align: center;
             position: relative;
-            backdrop-filter: blur(10px); /* Glass effect */
-            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            backdrop-filter: blur(10px); 
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5); 
         }
         #p8 {
             margin: 20px 0;
         }
         #a1 {
             margin: 20px 0;
-            color: red; /* Link color */
-            text-decoration: none; /* No underline */
-            transition: color 0.3s; /* Transition for hover */
+            color: red; 
+            text-decoration: none; 
+            transition: color 0.3s; 
         }
         #a1:hover {
-            color: white; /* Change color on hover */
+            color: white; 
         }
         @media (min-width: 768px) {
             #d1 {
@@ -147,10 +147,10 @@
                 align-items: flex-start;
             }
             #p2 {
-                font-size: 3em; /* Larger font size */
+                font-size: 3em; 
             }
             #p3, #p4, #p5 {
-                font-size: 1.8em; /* Increased font size */
+                font-size: 1.8em; 
                 text-align: left;
             }
             #d2 {
@@ -214,10 +214,10 @@
     <footer>
         <div id="d3">
             <p id="p7"><span style="color: red; font-size: 30px;"><strong>Innovation Archive</strong></span></p>
-            <hr style="border: 1px solid white; width: 90%; margin: 20px auto;"> <!-- Updated to white -->
+            <hr style="border: 1px solid white; width: 90%; margin: 20px auto;"> 
             <p id="p8"><strong>IMPORTANT LINKS</strong></p>
             <a href="./assets/T&C.html" target="_blank" id="a1">Terms and Condition</a>
-            <hr style="border: 1px solid white; width: 90%; margin: 20px auto;"> <!-- Updated to white -->
+            <hr style="border: 1px solid white; width: 90%; margin: 20px auto;">
             <p id="p9"><span style="color: gray;">Copyright @ 2024 Co-Working Space</span></p>
         </div>
     </footer>
